@@ -1,1 +1,30 @@
-Write your Answer here
+public class Tester implements StringChecker
+{
+  private int minnum;
+  private int maxnum;
+  private String restriction;
+}
+public Tester(int a, int b, String str)
+{
+  minnum = a;
+  maxnum = b;
+  restriction = str;
+}
+public Tester(String str)
+{
+  minnum = a;
+  maxnum = b;
+  restriction = str;
+}
+public boolean isValid(String str)
+{
+  if (str.contains(restriction) || str.length() < a || str.length() > b)
+  {
+    return false;
+  }
+  else
+  {
+    return true;
+  }
+}
+//Q.E.D
